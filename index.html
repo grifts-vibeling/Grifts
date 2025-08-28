@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Grifts — Discover your vibe. Unlock your tribe.</title>
+  <meta name="description" content="Take the Vibe Test, join a tribe, and unlock your Vibeling. Fun, gamified, and sharable." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='28' fill='%237c5cff'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-size='28' fill='white' font-family='Arial'%3EG%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">Grifts</div>
+      <nav class="nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#quiz" class="nav-link">Vibe Test</a>
+        <a href="#tribes" class="nav-link">Tribes</a>
+        <a href="#shop" class="nav-link">Shop</a>
+        <a href="#mine" class="nav-link">My Vibelings</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Home -->
+    <section id="home" class="view active">
+      <h1 class="hero">What’s your vibe?</h1>
+      <p class="sub">Take a 60‑second test. Unlock your tribe. Get your free Vibeling starter pack.</p>
+      <button class="btn primary" data-goto="#quiz">Take the test</button>
+    </section>
+
+    <!-- Quiz -->
+    <section id="quiz" class="view">
+      <h2>Vibe Test</h2>
+      <form id="quiz-form" class="quiz-form"></form>
+      <div class="quiz-actions">
+        <button class="btn" id="quiz-reset" type="button">Reset</button>
+        <button class="btn primary" id="quiz-submit" type="button">See my tribe</button>
+      </div>
+    </section>
+
+    <!-- Result -->
+    <section id="result" class="view">
+      <h2>Your Tribe</h2>
+      <div id="result-card" class="result-card">
+        <div class="result-chip" id="result-tribe"></div>
+        <h3 id="result-title"></h3>
+        <p id="result-desc" class="muted"></p>
+        <img id="result-image" class="result-image" alt="Your Vibeling" />
+        <div class="result-actions">
+          <a id="download-pack" class="btn" href="#" target="_blank" rel="noopener">Download starter pack</a>
+          <button id="save-vibeling" class="btn">Save to My Vibelings</button>
+          <button id="share-btn" class="btn">Share my tribe</button>
+          <a class="btn outline" href="#tribes">Explore tribes</a>
+        </div>
+      </div>
+      <canvas id="share-canvas" width="1080" height="1350" class="hide"></canvas>
+      <a id="share-download" class="btn hide" download="grifts-share.png">Download share image</a>
+    </section>
+
+    <!-- Tribes -->
+    <section id="tribes" class="view">
+      <h2>Tribes</h2>
+      <div id="tribe-grid" class="grid"></div>
+    </section>
+
+    <!-- Shop (placeholder) -->
+    <section id="shop" class="view">
+      <h2>Shop</h2>
+      <p class="muted">Coming soon: posters, stickers, pins, mugs, digital art packs, and the Vibe Crate subscription.</p>
+      <div class="shop-grid">
+        <div class="shop-card">Poster — “Your Tribe”</div>
+        <div class="shop-card">Sticker Pack</div>
+        <div class="shop-card">Pins</div>
+        <div class="shop-card">Digital Art Pack</div>
+        <div class="shop-card">Subscribe: Vibe Crate</div>
+      </div>
+    </section>
+
+    <!-- My Vibelings -->
+    <section id="mine" class="view">
+      <h2>My Vibelings</h2>
+      <p class="muted">Saved creatures appear here on this device.</p>
+      <div id="mine-grid" class="grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© Grifts</div>
+      <div class="muted small">Discover your vibe. Unlock your tribe.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

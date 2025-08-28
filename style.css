@@ -1,0 +1,39 @@
+:root{
+  --bg:#0b0b0c; --panel:#121216; --muted:#a1a1aa;
+  --text:#f5f5f6; --primary:#7c5cff; --radius:14px;
+  --glowpack:#ff7b54; --chillcast:#7ed6df; --edgeline:#ff4d6d; --dreamwave:#c084fc; --bytebeat:#00d1b2;
+}
+*{box-sizing:border-box} html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,sans-serif}
+.container{max-width:980px;margin:0 auto;padding:16px}
+.site-header,.site-footer{background:var(--panel);border-bottom:1px solid #1f1f25}
+.site-footer{border-top:1px solid #1f1f25;border-bottom:none;margin-top:24px}
+.header-inner,.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.brand{font-weight:800;letter-spacing:0.3px}
+.nav{display:flex;gap:12px;flex-wrap:wrap}
+.nav-link{color:var(--muted);text-decoration:none;padding:8px 10px;border-radius:10px}
+.nav-link:hover{background:#1b1b21;color:var(--text)}
+.hero{font-size:32px;margin:12px 0}
+.sub{color:var(--muted);margin-bottom:16px}
+.view{display:none;margin:20px 0}
+.view.active{display:block}
+.btn{background:#22222a;color:#fff;border:none;padding:12px 14px;border-radius:12px;cursor:pointer}
+.btn.primary{background:var(--primary)}
+.btn.outline{background:transparent;border:1px solid #333;color:#fff}
+.btn:active{opacity:.9}
+.quiz-form{display:grid;gap:14px;margin:14px 0}
+.card{background:var(--panel);padding:16px;border-radius:var(--radius);border:1px solid #1f1f25}
+.question{font-weight:600;margin-bottom:8px}
+.option{display:block;margin:8px 0}
+.result-card{background:var(--panel);padding:16px;border-radius:var(--radius);border:1px solid #1f1f25}
+.result-image{width:100%;max-width:360px;border-radius:16px;border:1px solid #222;background:#0f0f14}
+.result-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+.result-chip{display:inline-block;padding:6px 10px;border-radius:999px;font-size:12px;margin-bottom:8px;background:#1e1e25}
+.grid{display:grid;grid-template-columns:repeat( auto-fit, minmax(220px,1fr) );gap:12px}
+.card-tribe{padding:14px;border-radius:14px;border:1px solid #1f1f25;background:var(--panel)}
+.card-tribe h3{margin:6px 0}
+.muted{color:var(--muted)}
+.small{font-size:12px}
+.shop-grid{display:grid;grid-template-columns:repeat( auto-fit, minmax(160px,1fr) );gap:10px}
+.shop-card{background:var(--panel);border:1px solid #1f1f25;border-radius:12px;padding:14px;text-align:center}
+.hide{display:none}
+@media(min-width:640px){ .hero{font-size:40px} }

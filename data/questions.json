@@ -1,0 +1,62 @@
+[
+  {
+    "q": "Pick your weekend energy:",
+    "a": [
+      { "t": "glowpack", "label": "Bright colors, loud music, out with friends" },
+      { "t": "chillcast", "label": "Blanket, tea, slow shows" },
+      { "t": "edgeline", "label": "Underground gig, late night wander" },
+      { "t": "dreamwave", "label": "Art crawl, film fest, sketching" },
+      { "t": "bytebeat", "label": "Hackathon, game jam, new gadget" }
+    ]
+  },
+  {
+    "q": "Your ideal playlist:",
+    "a": [
+      { "t": "glowpack", "label": "Pop bangers" },
+      { "t": "chillcast", "label": "Lo‑fi & ambient" },
+      { "t": "edgeline", "label": "Punk/alt" },
+      { "t": "dreamwave", "label": "Indie & experimental" },
+      { "t": "bytebeat", "label": "Synthwave & EDM" }
+    ]
+  },
+  {
+    "q": "Pick a color mood:",
+    "a": [
+      { "t": "glowpack", "label": "Neon orange" },
+      { "t": "chillcast", "label": "Seafoam blue" },
+      { "t": "edgeline", "label": "Hot pink" },
+      { "t": "dreamwave", "label": "Lavender" },
+      { "t": "bytebeat", "label": "Aqua green" }
+    ]
+  },
+  {
+    "q": "How do you start projects?",
+    "a": [
+      { "t": "glowpack", "label": "By hyping the room" },
+      { "t": "chillcast", "label": "By planning calmly" },
+      { "t": "edgeline", "label": "By breaking rules" },
+      { "t": "dreamwave", "label": "By moodboarding" },
+      { "t": "bytebeat", "label": "By prototyping" }
+    ]
+  },
+  {
+    "q": "Pick a snack:",
+    "a": [
+      { "t": "glowpack", "label": "Spicy crisps" },
+      { "t": "chillcast", "label": "Warm cookies" },
+      { "t": "edgeline", "label": "Sour gummies" },
+      { "t": "dreamwave", "label": "Matcha treat" },
+      { "t": "bytebeat", "label": "Energy bar" }
+    ]
+  },
+  {
+    "q": "Pick a mascot trait:",
+    "a": [
+      { "t": "glowpack", "label": "Bouncy" },
+      { "t": "chillcast", "label": "Sleepy" },
+      { "t": "edgeline", "label": "Spiky" },
+      { "t": "dreamwave", "label": "Dreamy" },
+      { "t": "bytebeat", "label": "Glitchy" }
+    ]
+  }
+]

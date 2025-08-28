@@ -1,0 +1,57 @@
+[
+  {
+    "id": "glowpack",
+    "name": "GlowPack",
+    "color": "#ff7b54",
+    "desc": "Energetic, colorful, extroverted. You bring the hype.",
+    "vibelings": [
+      { "name": "Sparkie", "image": "assets/vibelings/glowpack/sparkie.png" },
+      { "name": "Boomi",   "image": "assets/vibelings/glowpack/boomi.png" }
+    ],
+    "packUrl": "packs/glowpack/"
+  },
+  {
+    "id": "chillcast",
+    "name": "ChillCast",
+    "color": "#7ed6df",
+    "desc": "Relaxed, cozy, easygoing. You set the vibe to chill.",
+    "vibelings": [
+      { "name": "Dozi",   "image": "assets/vibelings/chillcast/dozi.png" },
+      { "name": "Mellow", "image": "assets/vibelings/chillcast/mellow.png" }
+    ],
+    "packUrl": "packs/chillcast/"
+  },
+  {
+    "id": "edgeline",
+    "name": "EdgeLine",
+    "color": "#ff4d6d",
+    "desc": "Bold, alternative, rebellious. You don’t ask for permission.",
+    "vibelings": [
+      { "name": "Slash",  "image": "assets/vibelings/edgeline/slash.png" },
+      { "name": "Grimzy", "image": "assets/vibelings/edgeline/grimzy.png" }
+    ],
+    "packUrl": "packs/edgeline/"
+  },
+  {
+    "id": "dreamwave",
+    "name": "DreamWave",
+    "color": "#c084fc",
+    "desc": "Creative, surreal, artsy. You see worlds inside ideas.",
+    "vibelings": [
+      { "name": "Luma",    "image": "assets/vibelings/dreamwave/luma.png" },
+      { "name": "Mistlet", "image": "assets/vibelings/dreamwave/mistlet.png" }
+    ],
+    "packUrl": "packs/dreamwave/"
+  },
+  {
+    "id": "bytebeat",
+    "name": "ByteBeat",
+    "color": "#00d1b2",
+    "desc": "Digital, futuristic, nerdy. You optimize everything.",
+    "vibelings": [
+      { "name": "Pixl",      "image": "assets/vibelings/bytebeat/pixl.png" },
+      { "name": "Glitchlet", "image": "assets/vibelings/bytebeat/glitchlet.png" }
+    ],
+    "packUrl": "packs/bytebeat/"
+  }
+]
